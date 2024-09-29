@@ -1,0 +1,322 @@
+*{
+
+    padding: 0%;
+    margin: 0%;
+}
+
+
+html,body{
+
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+
+    height: 100%;
+    width: 100%;
+    
+}
+
+#header{
+
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(252, 251, 253);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+    
+    
+    
+}
+
+#falseheader{
+
+   
+    height: 10%;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+   
+    
+
+}
+
+
+.text{
+
+   
+    font-weight: bold;
+    font-size: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(19, 19, 86);
+    margin-left: 10px;
+    
+
+
+    
+}
+
+.text:hover{
+
+    color: rgb(116, 116, 223);
+}
+
+#page1{
+
+    height: 100%;
+    width: 100%;
+
+    background-color: rgb(255, 255, 255);
+    background-image: url('https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-products-bg.png?resize=2048,625') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    
+    
+    
+    
+}
+
+
+#page2{
+
+    height: 90%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+
+
+#logo img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 5;
+    
+    
+    
+}
+
+#logo{
+
+    height: 80%;
+    margin-left: 10px;
+
+
+}
+
+#contact{
+
+    margin-left: 500px;
+    color: rgb(5, 5, 53);
+}
+
+.icon{
+
+    display: flex;
+    
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon:hover{
+
+    background-color: rgb(197, 226, 255);
+
+
+}
+
+#try{
+
+    margin: 20px;
+    background-color: rgb(18, 90, 18);
+    height: 50px;
+    width: 40;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+#try:hover{
+
+    background-color: rgb(12, 61, 12);
+
+
+}
+
+#try p{
+
+    color: aliceblue;
+
+
+}
+
+#login{
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+
+    
+}
+#login:hover{
+
+    background-color: rgb(197, 226, 255);
+    border-radius: 20px;
+
+}
+
+.card{
+
+    
+    height: 400px;
+    width: 250px;
+    background-color: rgb(250, 249, 250);
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(207, 222, 222);
+    
+}
+
+#firstcard{  
+   
+    margin-left: 30px;
+    background-color: rgb(255, 255, 255);
+      
+}
+
+#firstcard img{
+
+    height: 35%;
+    width: 100%;
+    object-fit: contain;
+    
+    
+    
+}
+
+#seccard{
+
+  
+   background-color: rgb(255, 255, 255);
+  
+
+}
+#seccard img{
+
+    height: 35%;
+    width: 100%;
+    object-fit: contain;
+    
+    
+    
+}
+
+#thirdcard{
+
+    
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+#thirdcard img{
+
+    height: 35%;
+    width: 100%;
+    object-fit: contain;
+    
+    
+    
+}
+
+
+#lastcard{
+
+    
+    background-color: rgb(255, 255, 255);
+
+
+}
+#lastcard img{
+
+    height: 35%;
+    width: 100%;
+    object-fit: contain;
+    
+    
+    
+}
+
+.name{
+
+     color: rgb(34, 34, 129);
+      font-family: 'Gill Sans';
+       font-weight: bold;
+        margin-left: 30px;
+         margin-top: 30px;
+}
+
+.detail{
+    color: black;
+    margin-left: 30px;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+
+#product{
+
+    height: 40px;
+    width: 200px;
+    margin-left: 850px;
+    margin-top: 50px;
+    background-color: rgb(249, 249, 249);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(13, 121, 245);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(2, 84, 179);
+    
+}
+
+#product p{
+
+    
+    font-style: normal;
+    font-weight:bold;
+    font-family: 'Gill Sans';
+}
+
+#product:hover{
+
+    background-color: rgb(227, 232, 233);
+    color: rgb(34, 34, 82);
+    border-color: rgb(30, 30, 88);
+    
+    
+}
+
+#display{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
